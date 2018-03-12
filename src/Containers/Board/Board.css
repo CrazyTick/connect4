@@ -1,0 +1,35 @@
+
+.msg {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.board {
+  margin: 20px auto;
+  display: table;
+  width: 415px;
+  height: 360px;
+  padding: 10px;
+  background: #448AFF;
+  border: 1px solid #448AFF;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  border-spacing: 5px 5px;
+}
+.row {
+  display: table-row;
+}
+
+.info {
+  display: flex;
+  width: 230px;
+  margin: 25px auto;
+}
+
+.belowbar {
+  display: flex;
+  margin: 25px auto;
+  width: 150px;
+}
